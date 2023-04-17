@@ -1,0 +1,9 @@
+[submodule "challenge"]
+	path = air_hockey_challenge
+	url = https://github.com/LXYYY/air_hockey_challenge.git
+[submodule "rsl_rl"]
+	path = rsl_rl
+	url = https://github.com/LXYYY/rsl_rl.git
+[submodule "legged_gym"]
+	path = legged_gym
+	url = https://github.com/LXYYY/legged_gym.git
