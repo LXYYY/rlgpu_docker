@@ -35,7 +35,7 @@ RUN mkdir -p /run/sshd
 RUN echo 'PermitRootLogin yes' >> /etc/ssh/sshd_config
 
 # Set the working directory
-WORKDIR /workspace
+WORKDIR /workspace/src
 
 CMD ["/usr/sbin/sshd", "-D"]
 

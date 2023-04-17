@@ -9,7 +9,7 @@ build:
 start: run
 
 run:
-	docker run --name $(CONTAINER_NAME) --gpus all -v "$(shell pwd):/workspace" $(IMAGE_NAME)
+	docker run --name $(CONTAINER_NAME) --gpus all -v "$(shell pwd):/workspace/src" $(IMAGE_NAME)
 
 shell:
 	docker exec -it -u gymuser $(CONTAINER_NAME)  /bin/bash
