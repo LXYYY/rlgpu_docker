@@ -1,6 +1,6 @@
 .PHONY: build start run shell stop clean
 
-IMAGE_NAME := air_hockey_rlgpu:latest
+IMAGE_NAME := mikexyliu/rlgpu:latest
 CONTAINER_NAME := air_hockey_rlgpu_container
 
 build:

@@ -1,0 +1,3 @@
+- git: {local-name: air_hockey_challenge, uri: https://github.com/LXYYY/air_hockey_challenge.git, version: develop/isaac}
+- git: {local-name: legged_gym, uri: https://github.com/LXYYY/legged_gym.git, version: dev/air_hockey}
+- git: {local-name: rsl_rl, uri: https://github.com/LXYYY/rsl_rl.git, version: dev/air_hockey}
